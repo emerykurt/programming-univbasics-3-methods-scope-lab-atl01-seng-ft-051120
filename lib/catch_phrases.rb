@@ -17,7 +17,7 @@ describe "all_phrases" do
   it do
   expect {all_phrases}.to output (mario).to_stdout
   expect {all_phrases}.to output (toadstool).to_stdout
-  expect {all_phrases}.to output(link).to_stdout
+  expect {all_phrases}.to output (link).to_stdout
 end
 end
   
